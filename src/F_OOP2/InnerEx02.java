@@ -6,16 +6,9 @@ public class InnerEx02 {
 	public static void main(String[] args) {
 		
 		//method()호출
-		
-		
 		Outer o = new Outer();
 		Outer.Inner in= o.new Inner();
-		in.method();
-		
-		
-		
-		
-		
+		in.method();	
 	}
 }
 
